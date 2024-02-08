@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #0E0E1A;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.7)
+    ),
+    url(/images/1211947.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-logo{
+    width: 7rem;
+    padding-top: 2rem;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a{
+    font-size: 1.375rem;
+    padding: 1.25rem;
+    color: #F1ECDC;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #FEDAB6;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 1.5625rem;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+
+}
+
+.header-txt span{
+    font-size: 1.875rem;
+    color: #FEDAB6;
+
+}
+
+.header-txt h1{
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    color: #F1ECDC;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    border: .0625rem solid #44444C;
+}
+
+.price-1{
+    height: 6.25rem;
+    width: 18.75rem;
+    border-right: .0625rem solid #44444C;
+    padding: 1.25rem;
+}
+
+.price-1:last-child{
+    border: 0;
+}
+
+.price-1 p{
+    color: #fff9ed;
+    font-size: 1.25rem;  
+}
+.price-1 h3{
+    color:#fff9ed;
+    font-size: 1.875rem;
+}
+
+.adventur{
+    padding: 6.25rem 0;
+    text-align: center;
+
+}
+span{
+    color: #FEDAB6;
+    font-size: 1.875rem;
+}
+
+h2{
+    color: #fff9ed;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+    margin-bottom: 2.1875rem;
+}
+.adventur-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5rem;
+}
+.adventur-1{
+    padding: 1.5625rem 4.0625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventur-1 img{
+    width: 10.625rem;
+    margin: -7.5rem 0 1.875rem 0;
+}
+
+.adventur-1 h3{
+    color: #fff9ed;
+    font-size: 2.5rem;
+    line-height: 2.8125rem;
+    margin-bottom: 9.375rem;
+}
+
+.bg-1{
+    background-image: url(images/desktop-wallpaper-star-wars-landscape-star-wars-spaceship.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 25rem;
+}
+
+.bg-2{
+    background-image: url(images/landscape-spaceship-star-wars-wallpaper-preview.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 25rem;
+}
+
+.bg-3{
+    background-image: url(images/1123913.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 25rem;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: .8125rem 1.5625rem;
+    background-color: #D89E67;
+    color: #fff9ed;
+    font-size: 1.25rem;
+}
+
+.btn-1:hover{
+    background-color: #D89E67;
+}
+
+.general{
+    padding: 6.25rem 0;
+    display: flex;
+}
+
+.general-img{
+    width: 50%;
+    text-align: center;
+}
+
+.general-img img{
+    width: 31.25rem;
+}
+
+.general-txt{
+    width: 50%;
+}
+
+.general-txt p{
+    font-size: 1.125rem;
+    color: #fff9ed;
+    margin-bottom: 3.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    padding: 9.375rem 0;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    ),
+    url(images/1123914.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.plan{
+    padding: 6.25rem 0;
+    text-align: center;
+
+}
+.plan-content{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-1{
+    padding: 1.5625rem;
+}
+
+.plan-1 img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1.5625rem;
+}
+
+.plan-1 h3{
+    color: #fff9ed;
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.plan-1 p{
+    font-size: 1.125rem ;
+    color: #fff9ed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    padding: 15.625rem 0 3.125rem 0;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    ),
+    url(images/descarga.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;   
+}
+.footer-content a{
+    display: block;
+    font-size: 1.5625rem;
+    color: #fff9ed;
+}
+.footer-content a:hover{
+    color: #FEDAB6;
+}
+
+@media(max-width:991px){
+    .menu{
+        padding: 1.25rem;
+    }
+
+    .menu label{
+        display: initial;
+    }
+    .img-logo{
+        display: none;
+    }
+    .menu .navbar{
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: #1F1F1F;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 6.25rem 1.875rem;
+    }
+
+    .header-txt h1{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .price-1{
+        height:  5rem;
+        width: 100%;
+    }
+
+    .price-1 p{
+        font-size: .9375rem;
+    }
+
+    .price-1 h3{
+        font-size: 1.25rem;
+    }
+
+    .adventur{
+        padding: 1.875rem;
+    }
+
+    h2{
+        margin-bottom: 1.5625rem;
+    }
+
+    .adventur-content{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .adventur-1{
+        width: 70%;
+        margin-bottom: 8.125rem;
+    }
+
+    .adventur-1:last-child{
+        margin-bottom: 0;
+    }
+    
+    .general{
+        padding: 1.875rem;
+        flex-direction: column;
+    }
+
+    .general-img{
+        width: 100%;
+        order: 2;
+    }
+
+    .general-img img{
+        width: 100%;
+    }
+
+    .general-txt{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5625rem;
+    }
+
+    .general-txt p{
+        padding: 1.5625rem;
+    }
+
+    .banner{
+        padding: 1.875rem;
+    }
+
+    .plan{
+        padding: 1.875rem;
+    }
+
+    .plan-content{
+        flex-direction: column;
+    }
+
+    .plan-1{
+        padding: 1.5625rem 6.25rem;
+    }
+
+    .footer{
+        padding: 1.875rem;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content a{
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+/*MODIFICACION DEL SCROL*/
+/* width */
+::-webkit-scrollbar {
+    width: .625rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:rgb(78, 77, 77);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:wheat;
+    border-radius: 1rem;
+  }
